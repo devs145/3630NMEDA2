@@ -1,0 +1,47 @@
+/* add your own styles here */
+
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.page-content {
+    background-image: url("../img/background.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.title-large-text {
+    text-align: center;
+    color: white;
+}
+
+.material-icons {
+    font-size: 36px;
+}
+
+.navbar-inner {
+    background-color: black;
+    color: white;
+}
+
+#x {
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    margin: 0;
+    /*https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+    /* Vertical and horizontal alignment */
+    color: white;
+    font-size: 24px;
+}
