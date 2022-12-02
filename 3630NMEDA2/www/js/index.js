@@ -33,28 +33,20 @@ function onDeviceReady() {
     }
 
     function handleMotion(event) {
-        //console.log(event)
         var z = event.alpha;
         var x = event.beta;
         var y = event.gamma;
         var mystring = '';
-        
 
-
-       // $("#z").text("z: " + z)
         $("#x").text("x: " + x)
-        //$("#y").text("y: " + y)
-
-
-       
         if (z >= 0 && z <= 360) {
 
             if (z >= 0 && z < 40) {
-                mystring = "Stop looking and eat Italian Food";
+                mystring = "Stop looking and go eat Italian Food";
             } 
 
             if (z >= 40 && z < 80) {
-                mystring = "How can we forget abour Greek Food";
+                mystring = "How can we forget about Greek Food";
             }
 
             if (z >= 80 && z < 120) {
@@ -70,7 +62,7 @@ function onDeviceReady() {
             } 
 
             if (z >= 200 && z < 240) {
-                mystring = "It's getting cold get some Pho";
+                mystring = "It's getting cold go get some Pho";
             } 
 
             if (z >= 240 && z < 280) {
@@ -90,10 +82,4 @@ function onDeviceReady() {
         $("#x").html(mystring)
       
     }
-
-    
-
-
 }
-
-
