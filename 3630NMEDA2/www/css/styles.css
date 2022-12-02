@@ -55,10 +55,16 @@ h1 {
 
 h2 {
     color: black;
-    margin-top: 90px;
+    margin-top: 96px;
+}
+
+h3 {
+    color: black;
+    font-size: 21px;
 }
 
 p {
     color: black;
     text-align: center;
+    font-size: 15px;
 }
